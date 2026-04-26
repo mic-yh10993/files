@@ -6,17 +6,24 @@
   <title>文件列表</title>
 </head>
 <body>
-  文字<br>如果后期设置过密码但忘记了，可以输入超级管理员密码
-"mythware_super_password"进行设置。
-  <button id="openBtn">工具1</button>
-<button id="openBtn1">工具2</button>
+  文字：<br>如果后期设置过密码但忘记了，可以输入超级管理员密码
+"mythware_super_password"进行设置。<br>
 
+  <button id="openBtn">极域工具1下载</button>
+  <br>
+  <button id="openBtn1">极域工具2下载</button>
+  <br>
+  <button id="openBtn3">高数教程电子</button>
+  <br>
   <script>
     document.getElementById('openBtn').addEventListener('click', function () {
       window.open('./1.zip', '_blank');
     });
     document.getElementById('openBtn1').addEventListener('click', function () {
-      window.open('https://pinco.seewo.com/s/2f04a7d6a730431ebada39777fcccc85#', '_blank');
+      window.open('./3.7z', '_blank');
+    });
+    document.getElementById('openBtn3').addEventListener('click', function () {
+      window.open('./4.pdf', '_blank');
     });
   </script>
 </body>

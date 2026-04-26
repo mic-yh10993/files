@@ -3,13 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>打开链接</title>
+  <title>文件列表</title>
 </head>
 <body>
-  <button id="openBtn">打开链接</button>
+  文字<br>如果后期设置过密码但忘记了，可以输入超级管理员密码
+"mythware_super_password"进行设置。
+  <button id="openBtn">工具1</button>
+<button id="openBtn1">工具2</button>
 
   <script>
     document.getElementById('openBtn').addEventListener('click', function () {
+      window.open('./1.zip', '_blank');
+    });
+    document.getElementById('openBtn1').addEventListener('click', function () {
       window.open('https://pinco.seewo.com/s/2f04a7d6a730431ebada39777fcccc85#', '_blank');
     });
   </script>
